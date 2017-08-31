@@ -7,6 +7,10 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+//Given time series stock prices (ti,pi), solve n queries of two types.
+//Type 1 query -> find smallest time when stock price was atleat v
+//Type 2 query -> find highest stock price after time v
+
 public class TimeSeries {
 
 
